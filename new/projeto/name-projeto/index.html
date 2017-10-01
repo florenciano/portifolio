@@ -7,28 +7,26 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link href="assets/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <style>
-        div { outline: 1px dodgerblue solid; }
-        .teste { height: 100%; } /* altura da div do botão resumé */
-        img[src="assets/img/placeholder.jpg"] { max-width: 100%; }
+        /*div { outline: 1px dodgerblue solid; }*/
     </style>
 </head>
 <body>
     <div class="container">
         <header class="">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center my-5">
                 <div class="col-md-10">
                     <a href="../../" title="Rodrigo Florenciano - Designer Digital - Portfolio - HOME"><img src="../../assets/img/rodrigo-florenciano-logo.jpg" alt="Rodrigo Florenciano - Logo"></a>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-6">
-                    <h1 class="">Titulo do Projeto</h1>
+                    <h1 class="mb-0">Titulo do Projeto</h1>
                     <p class="">
-                        <span class="">#tecnique1</span>
-                        <span class="">#tecnique2</span>
-                        <span class="">#tecnique3</span>
+                        <span class="font-weight-bold">tecnique1</span> |
+                        <span class="font-weight-bold">tecnique2</span> |
+                        <span class="font-weight-bold">tecnique3</span>
                     </p>
                     <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, possimus, repudiandae? Dolorum aliquam, quaerat. Ipsum sit, ab, dolorem nam velit enim minima commodi exercitationem.</p>
                     <ul class="">
@@ -40,7 +38,7 @@
                 <div class="col-md-4">
                     <div class="row teste">
                         <div class="col align-self-center">
-                            <p class=""><a href="#" title="" class="">Jun 2016</a></p>
+                            <p class="text-right"><a href="#" title="" class="">Jun 2016</a></p>
                         </div>
                     </div>
                 </div>
@@ -48,13 +46,20 @@
         </header> <!-- ./ header -->
     </div>
     <article class="">
-        <div class="container-fluid">
-            <div class="row no-gutters">
+        <div class="container-fluid d-md-none p-0 my-5">
+            <div class="row">
                 <div class="col-12">
-                    <img src="../../assets/img/placeholder-projeto.jpg" alt="Detalhes da imagem" class="" style="margin:0 auto; display:block">
+                    <img src="../../assets/img/placeholder-projeto-small.jpg" alt="Detalhes da imagem" class="mw-100 mx-auto">
                 </div>
             </div>
-        </div> <!-- ./container image -->
+        </div> <!-- ./image[1] project for MOBILE -->
+        <div class="container-fluid d-none d-md-block p-0 my-5">
+            <div class="row">
+                <div class="col-12">
+                    <img src="../../assets/img/placeholder-projeto.jpg" alt="Detalhes da imagem" class="mw-100 mx-auto">
+                </div>
+            </div>
+        </div> <!-- ./image[1] project for DESKTOP -->
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-6">
@@ -64,29 +69,52 @@
                 <div class="col-md-4"></div>
             </div>
         </div> <!-- ./container text -->
-        <div class="container-fluid">
-            <div class="row no-gutters">
+        <div class="container-fluid d-md-none p-0 my-5">
+            <div class="row">
                 <div class="col-12">
-                    <img src="../../assets/img/placeholder-projeto.jpg" alt="Detalhes da imagem" class="" style="margin:0 auto; display:block">
-                </div>
-                <div class="col-12">
-                    <img src="../../assets/img/placeholder-projeto.jpg" alt="Detalhes da imagem" class="" style="margin:0 auto; display:block">
+                    <img src="../../assets/img/placeholder-projeto-small.jpg" alt="Detalhes da imagem" class="mw-100 mx-auto">
                 </div>
             </div>
-        </div>
+        </div> <!-- ./image[2] project for MOBILE -->
+        <div class="container-fluid d-none d-md-block p-0 my-5">
+            <div class="row">
+                <div class="col-12">
+                    <img src="../../assets/img/placeholder-projeto.jpg" alt="Detalhes da imagem" class="mw-100 mx-auto">
+                </div>
+            </div>
+        </div> <!-- ./image[2] project for DESKTOP -->
+        <div class="container-fluid d-md-none p-0 mb-5">
+            <div class="row">
+                <div class="col-12">
+                    <img src="../../assets/img/placeholder-projeto-small.jpg" alt="Detalhes da imagem" class="mw-100 mx-auto">
+                </div>
+            </div>
+        </div> <!-- ./image[3] project for MOBILE -->
+        <div class="container-fluid d-none d-md-block p-0 mb-5">
+            <div class="row">
+                <div class="col-12">
+                    <img src="../../assets/img/placeholder-projeto.jpg" alt="Detalhes da imagem" class="mw-100 mx-auto">
+                </div>
+            </div>
+        </div> <!-- ./image[3] project for DESKTOP -->
         <div class="container">
             <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <p class="text-center"><a href="#" title="Lorem ispum dolor simet"><i class="fa fa-arrow-left fa-lg" aria-hidden="true"></i>
+                        <span class="">Projeto anterior</a></span>
+                    </p>
+                    <p class="text-center">Lorem ipsum dolor simet</p>
+                </div>
                 <div class="col-md-2">
-                    <img src="../../assets/img/left-arrow.svg" alt="Ver projeto anterior" class="" height="24" width="24"><br>
-                    <span class="">Projeto anterior</span>
+                    <p class="text-center"><a href="../../#principais-projetos" title="Ver outros projetos"><i class="fa fa-th-large fa-lg" aria-hidden="true"></i><br>
+                        <span class="">Projetos</a></span>
+                    </p>
                 </div>
                 <div class="col-md-4">
-                    <img src="../../assets/img/thumbnail.svg" alt="Ver todos os projetos" class="" height="24" width="24"><br>
-                    <span class="">Projetos</span>
-                </div>
-                <div class="col-md-2">
-                    <img src="../../assets/img/right-arrow.svg" alt="Ver próximo projeto" class="" height="24" width="24"><br>
-                    <span class="">Próximo projeto</span>
+                    <p class="text-center"><a href="#" title="Lorem ispum dolor simet"><i class="fa fa-arrow-left fa-lg fa-flip-horizontal" aria-hidden="true"></i>
+                        <span class="">Próximo projeto</a></span>
+                    </p>
+                    <p class="text-center">Lorem ipsum dolor simet</p>
                 </div>
             </div>
         </div>
@@ -95,15 +123,21 @@
         <footer class="">
             <div class="row justify-content-center">
                 <div class="col-md-6">
-                    <h5 class=""><i class="glyphicon glyphicon-registration-mark"></i>Rodrigo Florenciano 2017</h5>
-                    <p><a href="#">florenciano.rodrigo@gmail.com</a></p>
+                    <h5 class="my-0"><i class="glyphicon glyphicon-registration-mark"></i>Rodrigo Florenciano 2017</h5>
+                    <p class=""><a href="mailto:florenciano.rodrigo@gmail.com?subject=Contato%20via%20portfolio" class="">florenciano.rodrigo@gmail.com</a></p>
                 </div>
                 <div class="col-md-4">
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center h-100 align-items-center">
                         <div class="col-md-3"></div>
-                        <div class="col-md-3 col-2"><img src="../../assets/img/linkedin-logo.svg" alt="Rodrigo Florenciano - LinkedIn" height="24" width="24"></div>
-                        <div class="col-md-3 col-2"><img src="../../assets/img/behance-logo.svg" alt="Rodrigo Florenciano - Behance" height="24" width="24"></div>
-                        <div class="col-md-3 col-2"><img src="../../assets/img/dribble-logo.svg" alt="Rodrigo Florenciano - Dribble" height="24" width="24"></div>
+                        <div class="col-md-3 col-2 text-center">
+                            <a href="https://www.linkedin.com/in/rodrigoflorenciano/" title="Perfil linkedIn - Rodrigo Florenciano - Designer Digital" class=""><i class="fa fa-linkedin fa-lg"></i></a>
+                        </div>
+                        <div class="col-md-3 col-2 text-center">
+                            <a href="#" title="Perfil Behance - Rodrigo Florenciano" class=""><i class="fa fa-behance fa-lg"></a></i>
+                        </div>
+                        <div class="col-md-3 col-2 text-center">
+                            <a href="#" title="Perfil Behance - Rodrigo Florenciano" class=""><i class="fa fa-dribbble fa-lg"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
