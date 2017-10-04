@@ -4,13 +4,12 @@
 ************************************/
 
 // test replace font-size:
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif:700');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700');
 
 body {
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Workin Sans', sans-serif;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: 'Noto Serif', serif;
 	font-weight: 700;
 }
