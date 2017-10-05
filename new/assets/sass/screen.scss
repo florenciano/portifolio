@@ -4,13 +4,14 @@
 * Layout/
 	* _header.scss
 	* _footer.scss
+	* _ui.scss
 * Page/
 	* _home.scss
 	* _project.scss
 ************************************/
 
 
-
+@import "layout/ui";
 @import "layout/main";
 @import "layout/header";
 @import "layout/footer";
