@@ -1,0 +1,29 @@
+/************************************
+* Portfolio - Rodrigo Florenciano
+* UI
+************************************/
+
+
+// Variables
+
+/************************************
+* TYPOGRAPHY
+************************************/
+// Definindo a tipografia do portfolio
+// Importando do Google Fonts®
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400');
+
+body { font-family: 'Workin Sans', sans-serif; }
+
+// .h1, .h2, .h3, .h4, .h5, .h6 { font-weight: 700; }
+
+/************************************
+* COLORS
+************************************/
+// Definindo as cores do portfolio (cotent text)
+// Tons de cinza e uma ou duas cores no máximo
+$cinza-base: #000 !default;
+$cinza-escuro: lighten($cinza-base, 13%); // primary
+$cinza-medio: lighten($cinza-base, 46%); // secondary
+$cinza-claro: lighten($cinza-base, 72%); // disable
