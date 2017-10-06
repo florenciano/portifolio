@@ -3,3 +3,17 @@
 * HEADER
 ************************************/
 
+// test color
+.header-theme-dark {
+	background: $cor-primaria;
+	.h1, p {
+		color: $cor-branca;
+	}
+}
+
+.header-theme-light {
+	background: $cor-branca;
+	.h1, p {
+		color: $cor-primaria;
+	}
+}

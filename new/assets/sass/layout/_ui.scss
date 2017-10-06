@@ -21,9 +21,16 @@ body { font-family: 'Workin Sans', sans-serif; }
 /************************************
 * COLORS
 ************************************/
-// Definindo as cores do portfolio (cotent text)
-// Tons de cinza e uma ou duas cores no máximo
-$cinza-base: #000 !default;
-$cinza-escuro: lighten($cinza-base, 13%); // primary
-$cinza-medio: lighten($cinza-base, 46%); // secondary
-$cinza-claro: lighten($cinza-base, 72%); // disable
+// Theme light
+$cor-preto: #000 !default;
+$preto-escuro: lighten($cor-preto, 13%); // primary
+$preto-medio: lighten($cor-preto, 46%); // secondary
+$preto-claro: lighten($cor-preto, 72%); // disable
+
+// Theme dark
+$cor-branca: #fff !default; // primary
+$branco-medio: lighten($cor-branca, 30%); // secondary
+$branco-claro: lighten($cor-branca, 50%); // disable
+
+// Primary color
+$cor-primaria: #4A148C !default; // test
