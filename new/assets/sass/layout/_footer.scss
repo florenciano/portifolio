@@ -3,3 +3,52 @@
 * FOOTER
 ************************************/
 
+.footer-page { background-color: $cor-primaria; }
+
+// Rodrigo Florenciano 2017 + link Gmail
+.name-link-footer { text-align: center; }
+
+// Rodrigo Florenciano 2017
+.name-footer { color: $cor-branca; }
+
+// link Gmail
+.btn-link-footer,
+.btn-link-footer:hover,
+.btn-link-footer:focus {
+	color: $cor-branca;
+}
+.btn-link-footer {
+	&:hover, &:focus { text-decoration: underline; }
+}
+
+// Social Media links
+.social-media {
+	a {
+		color: $cor-branca;
+		-webkit-transition: all .3s linear;
+     	   -moz-transition: all .3s linear;
+       		 -o-transition: all .3s linear;
+         		transition: all .3s linear;
+		&:hover { color: darken($cor-primaria, 20%); }
+	}
+}
+
+/* RESPONSIVE */
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	.name-link-footer {  text-align: left; }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

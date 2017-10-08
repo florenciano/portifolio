@@ -3,17 +3,52 @@
 * HEADER
 ************************************/
 
-// test color
-.header-theme-dark {
-	background: $cor-primaria;
-	.h1, p {
-		color: $cor-branca;
-	}
+/* BTN RESUMÉ */
+// paragráfo
+.p-link_resumo { margin-bottom: 3rem; }
+
+// botão
+.btn-link_resumo,
+.btn-link_resumo:hover,
+.btn-link_resumo:focus,
+.btn-link-resumo:active {
+	// background-color: $cor-primaria;
+	border: .1rem solid $cor-primaria;
+    border-radius: 20rem;
+    color: $cor-primaria;
+}
+.btn-link_resumo {
+	&:hover, &:focus {
+    	// background-color: $color-primary-dark-1;
+    	text-decoration: none;
+    	color: $color-primary-dark-1;
+    	border-color: $color-primary-dark-1;
+    }
+    &:active {
+    	// background-color: $color-primary-dark-2;
+    	color: $cor-branca;
+    	background-color: $cor-primaria;
+    	// @include box-shadow-portfolio(inset 0 3px 5px rgba(0,0,0,.125));
+    }
 }
 
-.header-theme-light {
-	background: $cor-branca;
-	.h1, p {
-		color: $cor-primaria;
-	}
+/* RESPONSIVE */
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	.p-link_resumo { margin-bottom: 0; }
+	.data-project { text-align: right !important; }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
 }

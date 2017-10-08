@@ -12,27 +12,47 @@
 // Definindo a tipografia do portfolio
 // Importando do Google Fonts®
 
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:400');
+@import url('https://fonts.googleapis.com/css?family=Lora:700|Noto+Sans400');
 
-body { font-family: 'Workin Sans', sans-serif; }
-
-// .h1, .h2, .h3, .h4, .h5, .h6 { font-weight: 700; }
+body { font-family: 'Noto Sans', sans-serif; }
+.h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Lora', serif; }
 
 /************************************
 * COLORS
 ************************************/
-// Theme light
+
 $cor-preto: #000 !default;
 $preto-escuro: lighten($cor-preto, 13%); // primary
 $preto-medio: lighten($cor-preto, 46%); // secondary
 $preto-claro: lighten($cor-preto, 72%); // disable
 $preto-borda: lighten($cor-preto, 12%); // divider
 
-// Theme dark
-$cor-branca: #fff !default; // primary
-$branco-medio: lighten($cor-branca, 30%); // secondary
-$branco-claro: lighten($cor-branca, 50%); // disable
-$branco-borda: lighten($cor-branca, 12%); // divider
+$cor-branca: #fff !default;
 
 // Primary color
-$cor-primaria: #4A148C !default; // test
+$cor-primaria: #f50057 !default; // cor logo
+$color-primary-dark-1: darken($cor-primaria, 5%); // hover
+$color-primary-dark-2: darken($cor-primaria, 8%); // active
+
+.grayscale-dark { color: $preto-escuro; }
+.grayscale-medium { color: $preto-medio; }
+.grayscale-light { color: $preto-claro; }
+.grayscale-border { color: $preto-borda; }
+
+.white { color: $cor-branca; }
+
+.color-primary { color: $cor-primaria; }
+.color-primary-over { color: $color-primary-dark-1; }
+.color-primary-active { color: $color-primary-dark-2; }
+
+body { color: $preto-escuro; }
+
+/************************************
+* MIXINs
+************************************/
+
+// effect 'Active' status button
+@mixin box-shadow-portfolio($shadow) {
+ 	-webkit-box-shadow: $shadow; // iOS <4.3 & Android <4.1
+		box-shadow: $shadow;
+}
