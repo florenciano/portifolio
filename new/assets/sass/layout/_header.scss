@@ -3,34 +3,11 @@
 * HEADER
 ************************************/
 
-/* BTN RESUMÉ */
-// paragráfo
+// Texto descritivo 'Quem sou eu'
 .p-link_resumo { margin-bottom: 3rem; }
 
-// botão
-.btn-link_resumo,
-.btn-link_resumo:hover,
-.btn-link_resumo:focus,
-.btn-link-resumo:active {
-	// background-color: $cor-primaria;
-	border: .1rem solid $cor-primaria;
-    border-radius: 20rem;
-    color: $cor-primaria;
-}
-.btn-link_resumo {
-	&:hover, &:focus {
-    	// background-color: $color-primary-dark-1;
-    	text-decoration: none;
-    	color: $color-primary-dark-1;
-    	border-color: $color-primary-dark-1;
-    }
-    &:active {
-    	// background-color: $color-primary-dark-2;
-    	color: $cor-branca;
-    	background-color: $cor-primaria;
-    	// @include box-shadow-portfolio(inset 0 3px 5px rgba(0,0,0,.125));
-    }
-}
+// Hastag tema dos projetos
+.color-text-medium { color: $color-text-dark; }
 
 /* RESPONSIVE */
 // Small devices (landscape phones, 576px and up)

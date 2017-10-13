@@ -2,3 +2,54 @@
 * Portfolio - Rodrigo Florenciano
 * MAIN
 ************************************/
+
+/************************************
+* BOTAO
+************************************/
+.btn-default,
+.btn-default:hover,
+.btn-default:focus,
+.btn-link-default:active {
+	border: 1px solid $color-brand;
+    border-radius: 2em;
+    color: $color-brand;
+}
+.btn-default {
+	&:hover, &:focus {
+    	text-decoration: none;
+        color: $color-white;
+        background-color: $color-brand;
+        @include transition(.3s linear);
+    }
+    &:active {
+        background-color: $color-base-text;
+        border-color: $color-base-text;
+    }
+}
+
+/************************************
+* CONTROLS NAV (projetos)
+************************************/
+
+
+
+/* RESPONSIVE */
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
