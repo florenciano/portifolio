@@ -21,6 +21,10 @@ $color-text-muted: lighten($color-base-text, 72%); // disable
 $color-border: lighten($color-base-text, 12%); // divider
 
 body { color: $color-base-text; }
+a {
+	color: $color-brand;
+	&:hover, :focus { color: $color-brand-dark; }
+}
 
 /************************************
 * MIXINs
