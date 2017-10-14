@@ -27,8 +27,8 @@
         listNumbProject = parseInt(listProject); // string to number
 
     function hideElement (element) {
-        element.previousElementSibling.style.display = "none"; // '<a>'
-        element.innerHTML = "" // '<span>'
+        element.previousElementSibling.setAttribute("class", "d-none");
+        element.innerHTML = null;
     }
 
     // projetos anteriores
