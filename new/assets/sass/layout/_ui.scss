@@ -18,7 +18,7 @@ $color-base-text: #374650 ; // Blue Gray 800 (material design) || #000
 $color-text-dark: lighten($color-base-text, 13%); // primary
 $color-text-medium: lighten($color-base-text, 46%); // secondary
 $color-text-muted: lighten($color-base-text, 72%); // disable
-$color-border: lighten($color-base-text, 12%); // divider
+$color-border: lighten($color-base-text, 88%); // divider
 
 body { color: $color-base-text; }
 a {
