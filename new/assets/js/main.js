@@ -5,20 +5,20 @@
     * page: 'Nome-projeto'
     ************************************/
     var allProject = [
-        "Project Name 1",
+        "Um ícone do Furniture Design",
         "Project Name 2",
         "Project Name 3",
-        "Project Name 4",
+        "Infografia",
         "Project Name 5",
-        "Project Name 6"
+        "Relatório anual"
     ];
     var allLink = [
-        "../name-projeto/",
+        "../projeto/icone-design-furniture/",
         "../name-projeto2/",
         "../name-projeto3/",
-        "../name-projeto4/",
+        "../projeto/infografia/",
         "../name-projeto5/",
-        "../name-projeto6/"
+        "../projeto/relatorio-anual/"
     ];
 
     var nameProjectPrevious = document.getElementById('name-projeto-anterior'),
