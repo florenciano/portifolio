@@ -9,16 +9,16 @@
         "Project Name 2",
         "Project Name 3",
         "Infografia",
-        "Interação 121",
-        "Relatório anual"
+        "Usabilidade em software",
+        "Apoio ao Ensino"
     ];
     var allLink = [
-        "../projeto/icone-design-furniture/",
-        "../name-projeto2/",
-        "../name-projeto3/",
-        "../projeto/infografia/",
-        "../projeto/interacao-121/",
-        "../projeto/relatorio-anual/"
+        "../../projeto/icone-design-furniture/",
+        "../../name-projeto2/",
+        "../../name-projeto3/",
+        "../../projeto/infografia/",
+        "../../projeto/usabilidade-em-software/",
+        "../../projeto/apoio-ao-ensino/"
     ];
 
     var nameProjectPrevious = document.getElementById('name-projeto-anterior'),
