@@ -288,6 +288,35 @@ footer {
     }
     .row .row .c1,.row .row .c2,.row .row .c3,.row .row .c4,.row .row .c5,.row .row .c6,.row .row .c7,.row .row .c8,.row .row .c9,.row .row .c10,.row .row .c11,.row .row .c12{ width:100%; margin-bottom:20px }
     .row .row > div:last-child { margin-bottom: 0 !important }
+    body {
+        color: red !important;
+    }
+
+    /* HEADER */
+    .ilustraHeader, .ilustraFooter {
+        display: none;
+    }
+    .titleHeader {
+        text-align: left;
+    }
+    .titleHeader-title {
+        margin-top: .5em;
+    }
+    .description {
+        width: 100%;
+        margin: 0 0 1em 0;
+    }
+    .description-readMore {
+        width: 100%;
+        padding-left: 1em;
+    }
+    /* FOOTER */
+    .footer-title {
+        margin-top: 1em;
+    }
+    .footer p:nth-child(3) {
+        margin-top: 2em;
+    }
 
 }
 /* $Helper classes

@@ -26,13 +26,4 @@ $(function() {
         $(this).on( "click", onClickHideCont );
     });
 
-    /*  emule effects for media touch
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-    // function onTouchEffects(e) {
-    //     $(this).toggleClass( "testTouchOverEffects" ); // insert here new class equal class:hover 
-    //     e.preventDefault();
-    // }
-    
-    // $( [btnReadMore, btnCloseMore] ).bind( "touchstart touchend", onTouchEffects );
-
 });
