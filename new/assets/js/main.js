@@ -6,7 +6,7 @@
     ************************************/
     var allProject = [
         "Um ícone do Furniture Design",
-        "Project Name 2",
+        "Dê-me uma identidade!",
         "Project Name 3",
         "Infografia",
         "Usabilidade em software",
@@ -14,7 +14,7 @@
     ];
     var allLink = [
         "../../projeto/icone-design-furniture/",
-        "../../name-projeto2/",
+        "../../projeto/de-me-uma-identidade/",
         "../../name-projeto3/",
         "../../projeto/infografia/",
         "../../projeto/usabilidade-em-software/",
