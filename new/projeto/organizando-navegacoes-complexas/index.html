@@ -21,7 +21,7 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-lg-8 mb-5">
-                        <h1 class="h1 lg-0">Organizando navegações complexas</h1>
+                        <h1 class="h1 lg-0 font-weight-normal">Organizando navegações complexas</h1>
                         <p class="">
                              <span class="color-text-medium">Design de Interação</span> |
                             <span class="color-text-medium">Arquitetura de informação</span> |
@@ -29,7 +29,7 @@
                             <span class="color-text-medium">Teste de usabilidade</span> |
                             <span class="color-text-medium">Prototipagem</span>
                         </p>
-                        <p class="">Nesta página você verá dois projetos que tratam de como uma organização na navegação é fundamental para os usuários consigam realizar suas tarefas com o mínimo de dificuldade. O primeiro é um projeto conceito, depois de experimentar na própria pele como é difícil encontrar as informações desejadas num sistema desorganizado e com uma interface confusa, decidi que seria uma boa ideia propor alternativas de correções; o segundo também aborda o mesmo tema, só que dentro de uma arquitetura mais enxuta.</p>
+                        <p>Nesta página você verá dois projetos que tratam de como uma organização na navegação é fundamental para que os usuários estejam aptos a realizar suas tarefas com maior facilidade. O primeiro é um projeto conceito, que surgiu depois de experimentar na própria pele como é difícil encontrar as informações desejadas num sistema desorganizado e com uma interface confusa, decidi que seria uma boa ideia propor alternativas de melhorias; o segundo também aborda o mesmo tema, só que dentro de uma arquitetura mais enxuta.</p>
                     </div>
                     <div class="col-lg-2 d-none d-lg-block">
                         <div>&nbsp;</div>
@@ -42,7 +42,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <h2 class="h4 mt-3">Por onde eu começo?</h2>
+                    <h3 class="h5 mt-3">Por onde eu começo?</h3>
                     <p>Se você, assim como eu já teve que utilizar os serviços do <a href="www.detran.sp.gov.br/" title=":: DETRAN-SP :: DEPARTAMENTO ESTADUAL DE TRÂNSITO DE SÃO PAULO">Detran.SP</a> sabe que não é fácil saber por onde navegar com tantas opções na tela, né? A imagem a seguir mostra a interface do sistema na época do acesso.</p>
                 </div>
                 <div class="col-lg-2 d-none d-lg-block">
@@ -54,10 +54,10 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid p-0 my-5">
+        <div class="container-fluid p-0 my-3">
             <div class="row no-gutters">
                 <div class="col-12">
-                    <img src="../../assets/img/projeto/organizando-navegacoes-complexas/organizando-navegacoes-complexas-1.jpg" alt="Detalhes da imagem" class="img-fluid mx-auto d-block">
+                    <img src="../../assets/img/projeto/organizando-navegacoes-complexas/organizando-navegacoes-complexas-1.jpg" alt="Organizando navegações complexas - iterface DETRAN.SP atual" class="img-fluid mx-auto d-block">
                 </div>
             </div>
         </div> <!-- ./image[1] -->
@@ -65,16 +65,36 @@
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <div class="col-md-9">
-                        <h2 class="h4">Arquitetura de informação</h2>
-                        <p class="">Lorem ipsum dolor sit amet, consectetur <a href="#">adipisicing elit</a>. Voluptatum quo nobis facere ipsam earum nostrum neque molestias! Illum neque repellendus dolorem ad error dolores veritatis est molestiae voluptas quas? Dolores?</p>
+                        <p>Enumerei em 5 itens o complexo sistema de navegação junto com o mecanismo de busca para poder verificar como esta a disposição e organização das informações. <strong>1</strong>) Uma simples pesquisa com o termo "<em>multa</em>" surgiram mais de 10 páginas de resultados com 20 respostas por página. Tanta informação que fiquei na dúvida de qual seria o contexto da minha necessidade; <strong>2</strong>) Todas as informações contidas no site se resume as estas 4 opções. Um pouco vago, mas talvez seja a única coisa mais suscinta até aqui; <strong>3</strong>) são serviços online que o sistema oferece, não fica claro para qual categoria se encaixa. São muitos os serviços e, consequentemente, recebe mais atenção do que qualquer outro elemento da interface; <strong>4</strong>) Podemos deduzir que há serviços mais utilizados (ou mais relevantes) e que por isso ganharam maior destaque visual; <strong>5</strong>) São mais opções de navegação da categoria. Não há consistência visual entre eles e você fica confuso se são partes de um todo ou se são coisas distintas entre si.</p>
+                        <p>Sabemos que o problema da navegação estar complexa é porque são inseridas novas funções dentro de uma arquitetura de informação previamente não projetada para isto. A inconsistência visual é resultado de não seguir um <a href="../usabilidade-em-software/#guideline-interface" title="Veja um exemplo de guideline para a produção de interface de usuário">guideline de desenvolvimento de interface</a>. O Detran.SP preocupou-se em disponibilizar TODAS as informações ao público de uma única vez e o usuário teve que pagar o preço: não se acha nenhuma informação com facilidade!</p>
                     </div>
                 </div>
             </div>
-        </div> <!-- ./container text -->
-        <div class="container-fluid p-0 my-5">
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="col-md-9">
+                        <h3 class="h5 mt-5">Colocando ordem na casa</h3>
+                        <p>A ideia apresentada a partir daqui é uma tentativa de arrumar a bagunça,  propor algo mais claro ao usuário. As ideias que compartilho aqui são uma resposta para a simples pergunta: <strong>O que você faria para melhorar este cenário</strong>?</p>
+                        <p>Antes de sair abraçando o mundo vamos definir o escopo:</p>
+                        <ul>
+                            <li>Partindo do pressuposto que as informações em maior destaque são os serviços mais procurados pelo público, então usaremos esta hipótese como parâmetro para projetar uma navegação funcional;</li>
+                            <li>Eliminação de redundâncias! Serviços semelhantes ficarão agrupados e manterão um padrão de nomenclaturas;</li>
+                            <li>Reduzir a carga de informação despejada ao usuário, o sistema de busca de informações priorizará pelos serviços mais utilizados ou mais relevantes;</li>
+                            <li>Vamos organizar as informações secundárias das categorias num só lugar, aqui é fundamental disponibilizar um ponto de contato rápido com a instituição para situações específicas ou emergenciais;</li>
+                            <li>Propor um redesenho de interface.</li>
+                        </ul>
+                        <p>Na sequência segue uma proposta de navegação no sistema. Cada categoria oferece somente as principais informações. Para acesso a detalhes específicos (navegação mais profunda) disponibilizamos o item "<span class="color-text-medium ">Outros serviços</span> *".</p>
+                        <p><small>*: Uma pesquisa de campo mostraria quais seriam os itens relacionados destas seções, entretanto, todos estariam disponibilizados conforme indicado.</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0 mt-3 mb-5">
             <div class="row no-gutters">
                 <div class="col-12">
-                    <img src="../../assets/img/projeto/organizando-navegacoes-complexas/organizando-navegacoes-complexas-2.png" alt="Detalhes da imagem" class="img-fluid mx-auto d-block">
+                    <img src="../../assets/img/projeto/organizando-navegacoes-complexas/organizando-navegacoes-complexas-2.png" alt="Organizando navegações complexas - proposta de uma nova arquitetura de informação" class="img-fluid mx-auto d-block">
                 </div>
             </div>
         </div> <!-- ./image[2] -->
@@ -82,16 +102,16 @@
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <div class="col-md-9">
-                        <h2 class="h4">Experiência mobile</h2>
-                        <p class="">Lorem ipsum dolor sit amet, consectetur <a href="#">adipisicing elit</a>. Voluptatum quo nobis facere ipsam earum nostrum neque molestias! Illum neque repellendus dolorem ad error dolores veritatis est molestiae voluptas quas? Dolores?</p>
+                        <h3 class="h5">Projetando experiências e UI</h3>
+                        <p>Possibilitando aos usuários uma experiência mobile do site Detran.SP a imagem a seguir mostra as possibilidades de interações na navegação do site e para o sistema de busca.</p>
                     </div>
                 </div>
             </div>
-        </div> <!-- ./text -->
-        <div class="container-fluid p-0 my-5">
+        </div> 
+        <div class="container-fluid p-0 mt-3 mb-5">
             <div class="row no-gutters">
                 <div class="col-12">
-                    <img src="../../assets/img/projeto/organizando-navegacoes-complexas/organizando-navegacoes-complexas-3.jpg" alt="Detalhes da imagem" class="img-fluid mx-auto d-block">
+                    <img src="../../assets/img/projeto/organizando-navegacoes-complexas/organizando-navegacoes-complexas-3.jpg" alt="Organizando navegações complexas - Proposta layout mobile" class="img-fluid mx-auto d-block">
                 </div>
             </div>
         </div> <!-- ./image[3] -->
@@ -99,23 +119,28 @@
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <div class="col-md-9">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quo iusto earum doloremque quibusdam tempore blanditiis. Harum, animi repellendus voluptas tempore magnam laboriosam blanditiis! Quo, repellat. Cum ullam ex nemo pariatur dolorum repellendus eum quos aperiam accusantium facilis iusto cumque, maiores minima, quod fugit vitae quis aliquid culpa sint illum quisquam enim excepturi. Voluptatum fugiat officia, doloremque ab facilis dolores nihil fuga nulla, maiores beatae?</p>
+                        <ol>
+                            <li><strong>Menu de navegação</strong>: Cada categoria com identificação visual distinta (cor, ícone e texto de apoio). Ao escolher a categoria desejada o menu apresenta os principais serviços. O ambiente cromático da interface sinaliza ao usuário a seção atual de navegação. "Outros serviços" disponibiliza as informaçoes secundárias da seção.</li>
+                            <li><strong>Sistema de busca</strong>: Listagem (<em>autocomplete</em>) suscinta, porém relevante ao usuário, mostrando o contexto da aplicação do termo digitado;</li>
+                            <li><strong>Busca por comando de voz</strong>: Trata-se de um possibilidade para otimizar a rapidez da busca.</li>
+                        </ol>
+                        <p>Na versão <strong>desktop</strong> o menu de navegação proporciona ao usuário encontrar as informações num só lugar. O sistema de busca recebe uma área estratégica na tela e tem mais destaque. Pontos de contato recebem destaques visuais para que o usuário saiba outros meios de encontrar as informações em caso de dúvidas.</p>
                     </div>
                 </div>
             </div>
-        </div> <!-- ./container text -->
-        <div class="container-fluid p-0 my-5">
+        </div>
+        <div class="container-fluid p-0 mt-3 mb-5">
             <div class="row no-gutters">
                 <div class="col-12">
-                    <img src="../../assets/img/projeto/organizando-navegacoes-complexas/organizando-navegacoes-complexas-4.jpg" alt="Detalhes da imagem" class="img-fluid mx-auto d-block">
+                    <img src="../../assets/img/projeto/organizando-navegacoes-complexas/organizando-navegacoes-complexas-4.jpg" alt="Organizando navegações complexas - Versão desktop" class="img-fluid mx-auto d-block">
                 </div>
             </div>
         </div> <!-- ./image[4] -->
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <h2 class="h4 mt-3">Sistema web</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi iste iusto tempore ea doloremque repudiandae amet totam soluta qui quas cum in dolorem aut sint culpa at ipsum quae, iure?</p>
+                    <h2 class="h4 mt-3">Sistema para web</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus atque obcaecati maiores reprehenderit, expedita esse fugit recusandae. Mollitia blanditiis earum quo aperiam, perspiciatis ullam vel id fugiat deserunt inventore voluptatem!</p>
                 </div>
                 <div class="col-lg-2 d-none d-lg-block">
                      <div class="row h-100">
@@ -132,7 +157,7 @@
                     <img src="../../assets/img/projeto/organizando-navegacoes-complexas/organizando-navegacoes-complexas-5.png" alt="Detalhes da imagem" class="img-fluid mx-auto d-block">
                 </div>
             </div>
-        </div> <!-- ./image[4] -->
+        </div> <!-- ./image[5] -->
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-10">
@@ -149,28 +174,28 @@
                     <img src="../../assets/img/projeto/organizando-navegacoes-complexas/organizando-navegacoes-complexas-6.png" alt="Detalhes da imagem" class="img-fluid mx-auto d-block">
                 </div>
             </div>
-        </div> <!-- ./image[4] -->
+        </div> <!-- ./image[6] -->
         <div class="container-fluid p-0 my-5">
             <div class="row no-gutters">
                 <div class="col-12">
                     <img src="../../assets/img/projeto/organizando-navegacoes-complexas/organizando-navegacoes-complexas-7.png" alt="Detalhes da imagem" class="img-fluid mx-auto d-block">
                 </div>
             </div>
-        </div> <!-- ./image[4] -->
+        </div> <!-- ./image[7] -->
         <div class="container-fluid p-0 my-5">
             <div class="row no-gutters">
                 <div class="col-12">
                     <img src="../../assets/img/projeto/organizando-navegacoes-complexas/organizando-navegacoes-complexas-8.png" alt="Detalhes da imagem" class="img-fluid mx-auto d-block">
                 </div>
             </div>
-        </div> <!-- ./image[4] -->
+        </div> <!-- ./image[8] -->
         <div class="container-fluid p-0 my-5">
             <div class="row no-gutters">
                 <div class="col-12">
                     <img src="../../assets/img/projeto/organizando-navegacoes-complexas/organizando-navegacoes-complexas-9.png" alt="Detalhes da imagem" class="img-fluid mx-auto d-block">
                 </div>
             </div>
-        </div> <!-- ./image[4] -->
+        </div> <!-- ./image[9] -->
         <div class="container my-5">
             <div class="row justify-content-center no-gutters">
                 <div class="col-md-4 text-center">
