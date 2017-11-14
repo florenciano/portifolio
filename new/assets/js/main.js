@@ -6,7 +6,7 @@
     ************************************/
     var allProject = [
         "Um ícone do Furniture Design",
-        "Organizando navegações complexas",
+        "Organizando navegações confusas",
         "Dê-me uma identidade!",
         "Infografia para web",
         "Usabilidade em software",
