@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Rodrigo Florenciano - Designer Digital; UX - Organizando navegações complexas</title>
+    <title>Rodrigo Florenciano - Designer Digital; UX - Organizando navegações confusas</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link href="../../assets/css/screen.css" media="screen" rel="stylesheet" type="text/css" />
@@ -23,13 +23,13 @@
                     <div class="col-lg-8 mb-5">
                         <h1 class="h1 lg-0 font-weight-normal">Organizando navegações confusas</h1>
                         <p class="">
-                             <span class="color-text-medium">Design de Interação</span> |
+                            <span class="color-text-medium">Design de Interação</span> |
                             <span class="color-text-medium">Arquitetura de informação</span> |
                             <span class="color-text-medium">Design de Interface</span> |
-                            <span class="color-text-medium">Teste de usabilidade</span> |
+                            <span class="color-text-medium">Testes com usuários</span> |
                             <span class="color-text-medium">Prototipagem</span>
                         </p>
-                        <p>Nesta página você verá dois projetos que tratam de como uma organização na navegação é fundamental para que determinadas tarefas sejam realizadas com mais facilidade. O primeiro é um projeto conceito, que surgiu depois de experimentar na própria pele como é difícil encontrar as informações desejadas num sistema desorganizado e com uma interface confusa, decidi que seria uma boa ideia propor alternativas de melhorias; o segundo também aborda o mesmo tema, só que dentro de uma arquitetura mais enxuta.</p>
+                        <p>Apresento aqui dois projetos que tratam de como uma organização na navegação é fundamental para as tarefas sejam realizadas com mais facilidade. O primeiro é um projeto conceito que nasceu depois de experimentar na própria pele a dificuldade de encontrar informações num sistema desorganizado e com uma interface confusa (Detran.SP), presumi que seria uma boa ideia propor alternativas de melhorias; o segundo também aborda o mesmo tema, só que dentro de uma arquitetura mais enxuta.</p>
                     </div>
                     <div class="col-lg-2 d-none d-lg-block">
                         <div>&nbsp;</div>
@@ -42,8 +42,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <h3 class="h5 mt-3">Por onde eu começo?</h3>
-                    <p>Se você, assim como eu já teve que utilizar os serviços do <a href="www.detran.sp.gov.br/" title=":: DETRAN-SP :: DEPARTAMENTO ESTADUAL DE TRÂNSITO DE SÃO PAULO">Detran.SP</a> sabe que não é fácil saber por onde navegar com tantas opções na tela, né? A imagem a seguir mostra a interface do sistema na época do acesso.</p>
+                    <h3 class="h3 font-weight-normal">Por onde eu começo?</h3>
+                    <p>Se você, assim como eu já teve que utilizar os serviços do <a href="www.detran.sp.gov.br/" title=":: DETRAN-SP :: DEPARTAMENTO ESTADUAL DE TRÂNSITO DE SÃO PAULO">Detran.SP</a> sabe que não é fácil navegar com tantas opções na tela.</p>
                 </div>
                 <div class="col-lg-2 d-none d-lg-block">
                      <div class="row h-100">
@@ -65,8 +65,15 @@
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <div class="col-md-9">
-                        <p>Enumerei em 5 itens o complexo sistema de navegação junto com o mecanismo de busca para poder verificar como esta a disposição e organização das informações. <strong>1</strong>) Uma simples pesquisa com o termo "<em>multa</em>" surgiram mais de 10 páginas de resultados com 20 respostas por página. Tanta informação que fiquei na dúvida de qual seria o contexto da minha necessidade; <strong>2</strong>) Todas as informações contidas no site se resume as estas 4 opções. Um pouco vago, mas talvez seja a única coisa mais suscinta até aqui; <strong>3</strong>) são serviços online que o sistema oferece, não fica claro para qual categoria se encaixa. São muitos os serviços e, consequentemente, recebe mais atenção do que qualquer outro elemento da interface; <strong>4</strong>) Podemos deduzir que há serviços mais utilizados (ou mais relevantes) e que por isso ganharam maior destaque visual; <strong>5</strong>) São mais opções de navegação da categoria. Não há consistência visual entre eles e você fica confuso se são partes de um todo ou se são coisas distintas entre si.</p>
-                        <p>Sabemos que o problema da navegação estar complexa é porque são inseridas novas funções dentro de uma arquitetura de informação previamente não projetada para isto. A inconsistência visual é resultado de não seguir um <a href="../usabilidade-em-software/#guideline-interface" title="Veja um exemplo de guideline para a produção de interface de usuário">guideline de desenvolvimento de interface</a>. O Detran.SP preocupou-se em disponibilizar TODAS as informações ao público de uma única vez e o usuário teve que pagar o preço: não se acha nenhuma informação com facilidade!</p>
+                        <p id="itens-problemas">Enumerei em 5 <strong>itens-problemas</strong> o sistema de navegação.
+                        <ol>
+                             <li>Uma pesquisa com o termo "<em>multa</em>" surgem mais de 10 páginas de resultados com 20 respostas por página. Fiquei na dúvida de qual seria o contexto da minha necessidade;</li>
+                             <li>As 4 seções de navegação estão tímidas. É fácil ignorá-los;</li>
+                             <li>Os "Serviços online" não deixa claro para qual seção se refere. Recebe mais atenção do que menu de navegação;</li>
+                             <li>Induz que seja as principais opções de navegação da seção. Inconsistência visual com os demais elementos da interface.</li>
+                             <li>Uma extensa lista de navegação com padrão visual próprio. Separar do menu causa confusão se faz parte da seção ou se eles são assuntos genéricos.</li>
+                         </ol>
+                        <p>O Detran preocupou-se em disponibilizar TODAS as informações ao público de uma única vez, e o usuário teve que pagar o preço: não se acha nada com facilidade!</p>
                     </div>
                 </div>
             </div>
@@ -75,23 +82,22 @@
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <div class="col-md-9">
-                        <h3 class="h5 mt-5">Colocando ordem na casa</h3>
-                        <p>A ideia apresentada a partir daqui é uma tentativa de arrumar a bagunça,  propor algo mais claro ao usuário. As ideias que compartilho aqui são uma resposta para a simples pergunta: <strong>O que você faria para melhorar este cenário</strong>?</p>
-                        <p>Antes de sair abraçando o mundo vamos definir o escopo:</p>
+                        <h3 class="h3 font-weight-normal mt-5">O que você faria para melhorar este cenário?</h3>
+                        <p>A seguir uma proposta para colocar ordem na casa. Os principais pontos de melhorias:</p>
                         <ul>
-                            <li>Partindo do pressuposto que as informações em maior destaque são os serviços mais procurados pelo público, então usaremos esta hipótese como parâmetro para projetar uma navegação funcional;</li>
-                            <li>Eliminação de redundâncias! Serviços semelhantes ficarão agrupados e manterão um padrão de nomenclaturas;</li>
-                            <li>Reduzir a carga de informação despejada ao usuário, o sistema de busca de informações priorizará pelos serviços mais utilizados ou mais relevantes;</li>
-                            <li>Vamos organizar as informações secundárias das categorias num só lugar, aqui é fundamental disponibilizar um ponto de contato rápido com a instituição para situações específicas ou emergenciais;</li>
-                            <li>Propor um redesenho de interface.</li>
+                            <li>A busca poporcionará resultados relevantes e qual o contexto da aplicação;</li>
+                            <li>Partindo do pressuposto que as informações em maior destaque são os serviços mais relevantes para o público, garantiremos uma navegação funcional;</li>
+                            <li>Eliminação de redundâncias! Serviços semelhantes ou relacionados ficarão agrupados e terão o mesmo padrão visual;</li>
+                            <li>Organizar as informações secundárias das seções. Para situações emergenciais e específicas disponibilizar um ponto de contato com a instituição;</li>
+                            <li>Redesenho de interface: moderno, adaptativo e com <em>patterns</em> visuais ajudará fluir melhor a navegação.</li>
                         </ul>
-                        <p>Na sequência segue uma proposta de navegação no sistema. Cada categoria oferece somente as principais informações. Para acesso a detalhes específicos (navegação mais profunda) disponibilizamos o item "<span class="color-text-medium ">Outros serviços</span> *".</p>
-                        <p><small>*: Uma pesquisa de campo mostraria quais seriam os itens relacionados destas seções, entretanto, todos estariam disponibilizados conforme indicado.</small></p>
+                        <p>Com base nestas observações criei uma proposta de <strong>arquitetura de informação</strong> para visualizar o fluxo de navegação: cada seção com mostra suas principais opções. Informações menos relevantes ficará dentro do guarda-chuva "<span class="color-text-medium ">Outros serviços</span> *".</p>
+                        <p><small>*: Pesquisas de campo mostrariam quais seriam os itens relacionados dos seus respectivos serviços.</small></p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid p-0 mt-3 mb-5">
+        <div class="container-fluid p-0 mb-5">
             <div class="row no-gutters">
                 <div class="col-12">
                     <img src="../../assets/img/projeto/organizando-navegacoes-confusas/organizando-navegacoes-confusas-2.png" alt="Organizando navegações confusas - proposta de uma nova arquitetura de informação" class="img-fluid mx-auto d-block">
@@ -102,16 +108,16 @@
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <div class="col-md-9">
-                        <h3 class="h5">Projetando experiências e UI</h3>
-                        <p>Possibilitando aos usuários uma experiência mobile do site Detran.SP a imagem a seguir mostra as possibilidades de interações na navegação do site e para o sistema de busca.</p>
+                        <h3 class="h3 font-weight-normal mt-5">Projetando experiências e UI mobile</h3>
+                        <p>A seguir proposta para novas interações no design da navegação, novas possibilidades de usos no sistema de busa e o redesnho da interface.</p>
                     </div>
                 </div>
             </div>
-        </div> 
-        <div class="container-fluid p-0 mt-3 mb-5">
+        </div>
+        <div class="container-fluid p-0 mb-5">
             <div class="row no-gutters">
                 <div class="col-12">
-                    <img src="../../assets/img/projeto/organizando-navegacoes-confusas/organizando-navegacoes-confusas-3.jpg" alt="Organizando navegações confusas - Proposta layout mobile" class="img-fluid mx-auto d-block">
+                    <img src="../../assets/img/projeto/organizando-navegacoes-confusas/organizando-navegacoes-confusas-3.jpg" alt="Organizando navegações confusas - interações mobile" class="img-fluid mx-auto d-block">
                 </div>
             </div>
         </div> <!-- ./image[3] -->
@@ -120,16 +126,33 @@
                 <div class="col-md-10">
                     <div class="col-md-9">
                         <ol>
-                            <li><strong>Menu de navegação</strong>: Cada categoria com identificação visual distinta (cor, ícone e texto de apoio). Ao escolher a categoria desejada o menu apresenta os principais serviços. O ambiente cromático da interface sinaliza ao usuário a seção atual de navegação. "Outros serviços" disponibiliza as informaçoes secundárias da seção.</li>
-                            <li><strong>Sistema de busca</strong>: Listagem (<em>autocomplete</em>) suscinta, porém relevante ao usuário, mostrando o contexto da aplicação do termo digitado;</li>
+                            <li><strong>Menu de navegação</strong>: Cada seção com identificação visual. Ao navegar pela seção desejada o menu apresenta os principais serviços. O ambiente cromático sinaliza ao usuário a seção atual da navegação;</li>
+                            <li><strong>Sistema de busca</strong>: Listagem (<em>autocomplete</em>) suscinta, porém relevante ao usuário, mostrando o contexto da aplicação;</li>
                             <li><strong>Busca por comando de voz</strong>: Trata-se de um possibilidade para otimizar a rapidez da busca.</li>
                         </ol>
-                        <p>Na versão <strong>desktop</strong> o menu de navegação proporciona ao usuário encontrar as informações num só lugar. O sistema de busca recebe uma área estratégica na tela e tem mais destaque. Pontos de contato recebem destaques visuais para que o usuário saiba outros meios de encontrar as informações em caso de dúvidas.</p>
+                        <p>A seguir o redesenho de toda interface do site da <em>home-page</em> e de uma página interna.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid p-0 mt-3 mb-5">
+         <div class="container-fluid p-0 mb-5">
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <img src="../../assets/img/projeto/organizando-navegacoes-confusas/organizando-navegacoes-confusas-3b.jpg" alt="Organizando navegações confusas - layout mobile" class="img-fluid mx-auto d-block">
+                </div>
+            </div>
+        </div> <!-- ./image[3b] -->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="col-md-9">
+                        <h3 class="h3 font-weight-normal mt-5">Solução desktop</h3>
+                        <p>A seguir uma proposta visual para a home-page do site. A sugestão para o menu de navegação é agrupar todas informações num só lugar, criar consistência visual e boa legibilidade. O sistema de busca recebe uma área estratégica na tela e tem mais destaque. Cada grupo de informação na página (notícias, TV, Detran) recebe um padrão de design visual para melhor identificação.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0 mb-5">
             <div class="row no-gutters">
                 <div class="col-12">
                     <img src="../../assets/img/projeto/organizando-navegacoes-confusas/organizando-navegacoes-confusas-4.jpg" alt="Organizando navegações confusas - Versão desktop" class="img-fluid mx-auto d-block">
@@ -139,8 +162,9 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <h2 class="h4 mt-3">Sistema para web</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus atque obcaecati maiores reprehenderit, expedita esse fugit recusandae. Mollitia blanditiis earum quo aperiam, perspiciatis ullam vel id fugiat deserunt inventore voluptatem!</p>
+                    <h2 class="h2 font-weight-normal mt-5">Sistemas web <small class="text-muted">com defeitos de fabricação</small></h2>
+                    <p>A <a href="https://www.proteste.org.br" title="PROTESTE - Associação Brasileira de Defesa do Consumidor">PROTESTE</a> (Associação Brasileira de Defesa do Consumidor) desenvolveu uma solução tecnológica "Acess Control ou ACA2" para o acompanhamento e registro de preços de diversos produtos. Um sistema integrado com usuários de vários locais do país. A equipe de TI da empresa submeteu o sistema a uma análise de usabilidade, uma vez que os primeiros usuários encontrara dificuldade em manuseá-lo.</p>
+                    <p>Analisando a aquitetura inicial do sistema percebe-se que após a etapa do login é disponibilizado muitas informações na tela inicial. Sem uma marcação visual do tipo "Você está aqui" o usuário econtrava dificuldade para saber por onde começar.</p>
                 </div>
                 <div class="col-lg-2 d-none d-lg-block">
                      <div class="row h-100">
@@ -151,10 +175,10 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid p-0 my-5">
+        <div class="container-fluid p-0 mb-5">
             <div class="row no-gutters">
                 <div class="col-12">
-                    <img src="../../assets/img/projeto/organizando-navegacoes-confusas/organizando-navegacoes-confusas-5.png" alt="Detalhes da imagem" class="img-fluid mx-auto d-block">
+                    <img src="../../assets/img/projeto/organizando-navegacoes-confusas/organizando-navegacoes-confusas-5.png" alt="Organizando navegações confusas - arquitetura inicial do sistema ACA2" class="img-fluid mx-auto d-block">
                 </div>
             </div>
         </div> <!-- ./image[5] -->
@@ -162,48 +186,60 @@
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <div class="col-md-9">
-                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ipsum maiores repellat excepturi, odit.</p>
-                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo autem consequatur, cumque dolores iste mollitia sint quisquam debitis.</p>
+                        <h3 class="h3 font-weight-normal mt-5">Testando a usabilidade</h3>
+                        <p>Realizei <strong>teste de usabilidade </strong>com alguns usuários para avaliar a facilidade de operar o sistema. Foi proposto uma tarefa corriqueira "<strong>Imprimir as informações cadastradas dos produtos que começam com a letra R</strong>" , e os principais feedbacks encontrados foram:</p>
+                        <blockquote class="blockquote">
+                            <p class="mb-1">Sistema precisando de uma gama maior de marcação visual.</p>
+                            <p class="mb-1">Uma vez encontrado o iten "products" foi fácil encontrar o campo de pesquisa, porém, este campo só permite pesquisa literal, mas sem especificar qual campo esta sendo levado em consideração [na busca].</p>
+                            <p class="mb-1">Estou na dúvida se é necessário marcar o checkbox todos os itens da lista para imprimir, o botão "imprimir" estava habilitado.</p>
+                            <footer class="blockquote-footer text-uppercase"><cite title="Source Title">user01</cite></footer>
+                        </blockquote>
+                        <blockquote class="blockquote">
+                            <p class="mb-1">A navegação a partir do menu, em tese, é simples, é uma navegação em dois cliques, mas possui um agravante muito sério, pois os três itens listados possuem a mesma representação visual, por quê?</p>
+                            <p class="mb-1">Uma dúvida se é necessário ou não, selecionar os elementos da tabela através do checkbox, percebi que independente do tipo de seleção o sistema redireciona para uma página que só tem o conteúdo da tabela.</p>
+                            <footer class="blockquote-footer text-uppercase"><cite title="Source Title">user02</cite></footer>
+                        </blockquote>
+                        <h3 class="h3 font-weight-normal mt-5">Analisando a interface</h3>
+                        <p>Esta etapa é fundamental para investigar onde há erros na interface de usuários. Identifiquei 3 padrões:</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid p-0 my-5">
+        <div class="container-fluid p-0 mb-5">
             <div class="row no-gutters">
                 <div class="col-12">
-                    <img src="../../assets/img/projeto/organizando-navegacoes-confusas/organizando-navegacoes-confusas-6.png" alt="Detalhes da imagem" class="img-fluid mx-auto d-block">
-                </div>
-            </div>
-        </div> <!-- ./image[6] -->
-        <div class="container-fluid p-0 my-5">
-            <div class="row no-gutters">
-                <div class="col-12">
-                    <img src="../../assets/img/projeto/organizando-navegacoes-confusas/organizando-navegacoes-confusas-7.png" alt="Detalhes da imagem" class="img-fluid mx-auto d-block">
+                    <img src="../../assets/img/projeto/organizando-navegacoes-confusas/organizando-navegacoes-confusas-7.png" alt="Organizando navegações confusas - análise heurística de interface" class="img-fluid mx-auto d-block">
                 </div>
             </div>
         </div> <!-- ./image[7] -->
-        <div class="container-fluid p-0 my-5">
-            <div class="row no-gutters">
-                <div class="col-12">
-                    <img src="../../assets/img/projeto/organizando-navegacoes-confusas/organizando-navegacoes-confusas-8.png" alt="Detalhes da imagem" class="img-fluid mx-auto d-block">
-                </div>
-            </div>
-        </div> <!-- ./image[8] -->
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <div class="col-md-9">
-                        <p>
-                            <mark>{{ arrumar a imagem acima... como a página fala sobre navegação esta é a imagem PRINCIPAL }}</mark>
-                        </p>
+                        <ol>
+                            <li>Menu de navegação principal, não possui distinção visual entre seus elementos. Dificulta a identificação rápido dos itens;</li>
+                            <li>Todas as operações de entrada de dados mantém dados com linguagem técnica. Não apresenta ajuda contextual do tipo de dados requirido para preenchimento. Há mistura de termos de idiomas e sem validação de dados ao prosseguir a operação;</li>
+                            <li>Mensagem de erro sem tratamento textual para informar ao usuário a causa do erro ou feedback da operação.</li>
+                        </ol>
+                        <h3 class="h3 font-weight-normal mt-5">Redesenhando a navegação do sistema</h3>
+                        <p>A proposta pretende corrigir os problemas descritos anteriormente. Determindas operações ficaram somente disponíveis de acordo com o fluxo de navegação no sistema. O sitema notificará a localização do usuário (<em>breadcrumbs</em>). Tarefas concluídas retornam para a página inicial. Linguagem verbal em único idioma prefericialmente em português. Tratamento dos termos técnicos e siglas para eliminar dúvidas. Sistema de busca proporcionando mais opções de configurações.</p>
+                        <p>A seguir temos a arquitetura do sistema reformulada e uma representação do fluxo da navegação com wireframes.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid p-0 my-5">
+        <div class="container-fluid p-0 mb-3">
             <div class="row no-gutters">
                 <div class="col-12">
-                    <img src="../../assets/img/projeto/organizando-navegacoes-confusas/organizando-navegacoes-confusas-9.png" alt="Detalhes da imagem" class="img-fluid mx-auto d-block">
+                    <img src="../../assets/img/projeto/organizando-navegacoes-confusas/organizando-navegacoes-confusas-8.png" alt="Organizando navegações confusas - nova arquitetura de informação" class="img-fluid mx-auto d-block">
+                </div>
+            </div>
+        </div> <!-- ./image[8] -->
+        </div>
+        <div class="container-fluid p-0 mb-5">
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <img src="../../assets/img/projeto/organizando-navegacoes-confusas/organizando-navegacoes-confusas-9.png" alt="Organizando navegações confusas - fluxo de navegação do sistema com wireframes" class="img-fluid mx-auto d-block">
                 </div>
             </div>
         </div> <!-- ./image[9] -->
