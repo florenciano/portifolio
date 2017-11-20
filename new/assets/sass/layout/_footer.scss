@@ -3,7 +3,7 @@
 * FOOTER
 ************************************/
 
-.footer-page { background-color: $color-brand; }
+.footer-page { background-color: $color-base-text; }
 
 // Rodrigo Florenciano 2017 + link Gmail
 .name-link-footer { text-align: center; }
@@ -19,7 +19,7 @@
  	   -moz-transition: all .3s linear;
    		 -o-transition: all .3s linear;
      		transition: all .3s linear;
-	&:hover, &:focus { color: $color-base-text; }
+	&:hover, &:focus { color: $color-brand; }
 }
 
 /* RESPONSIVE */

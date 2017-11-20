@@ -5,20 +5,20 @@
     * page: 'Nome-projeto'
     ************************************/
     var allProject = [
-        "Um ícone do Furniture Design",
         "Organizando navegações confusas",
-        "Dê-me uma identidade!",
+        "Apoio ao Ensino",
+        "Um ícone do Furniture Design",
         "Infografia para web",
         "Usabilidade em software",
-        "Apoio ao Ensino"
+        "Dê-me uma identidade!",
     ];
     var allLink = [
+        "../../projeto/organizando-navegacoes-confusas/",
+        "../../projeto/apoio-ao-ensino/",
         "../../projeto/icone-design-furniture/",
-        "../../projeto/organizando-navegacoes-complexas/",
-        "../../projeto/de-me-uma-identidade/",
         "../../projeto/infografia/",
         "../../projeto/usabilidade-em-software/",
-        "../../projeto/apoio-ao-ensino/"
+        "../../projeto/de-me-uma-identidade/",
     ];
 
     var nameProjectPrevious = document.getElementById('name-projeto-anterior'),
