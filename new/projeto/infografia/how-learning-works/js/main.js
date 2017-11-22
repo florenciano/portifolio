@@ -1,0 +1,1 @@
+$(function(){function e(e){$(this).parents(".container-description").next(".modalReadMore").fadeToggle("slow"),e.preventDefault()}function n(e){$(this).parents(".modalReadMore").fadeOut("slow"),e.preventDefault()}$(".description-readMore-btn").each(function(){$(this).on("click",e)}),$(".modalReadMore-close-btn").each(function(){$(this).on("click",n)})});
