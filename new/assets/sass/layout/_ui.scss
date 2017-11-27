@@ -11,10 +11,10 @@ body { font-family: 'Rubik', sans-serif; }
 * COLORS
 ************************************/
 
-$color-brand: #F5005A !default; // APink 400
+$color-brand: #EC0047 !default; // #f5005A | #EC0047 (accessibility)
 $color-brand-dark: darken($color-brand, 10%);
 $color-white: #fff;
-$color-base-text: #374650 ; // Blue Gray 800 (material design) || #000
+$color-base-text: #374650 ; // Blue Gray 800
 $color-text-dark: lighten($color-base-text, 13%); // primary
 $color-text-medium: lighten($color-base-text, 46%); // secondary
 $color-text-muted: lighten($color-base-text, 72%); // disable
