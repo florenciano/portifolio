@@ -21,8 +21,8 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-	.p-link_resumo { margin-bottom: 0; }
-	.data-project { text-align: right !important; }
+	// btn resumo
+	.p-btn-resumo { text-align: center;}
 }
 
 // Extra large devices (large desktops, 1200px and up)
