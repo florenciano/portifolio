@@ -111,6 +111,6 @@
         </article>
     </div>
     <?php include("footer.php") ?>
-    <?php include_once("google-analytics.php") ?>
+    <?php include("google-analytics.php") ?>
 </body>
 </html>

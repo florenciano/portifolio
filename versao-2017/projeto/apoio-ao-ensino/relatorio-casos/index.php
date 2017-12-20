@@ -293,6 +293,6 @@
     <script src="assets/js/rel.js"></script>
     <!-- code project -->
     <script src="assets/js/main.js"></script>
-    <?php include_once("../../../google-analytics.php") ?>
+    <?php include("../../../google-analytics.php") ?>
 </body>
 </html>

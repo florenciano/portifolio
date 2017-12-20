@@ -267,7 +267,7 @@
         </div>
     </section>
     <?php include("../../footer.php") ?>
-    <?php include_once("../../google-analytics.php") ?>
+    <?php include("../../google-analytics.php") ?>
     <script src="../../assets/js/main.js"></script>
 </body>
 </html>

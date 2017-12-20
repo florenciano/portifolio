@@ -294,6 +294,6 @@
           crossorigin="anonymous">
     </script>
     <script src="js/main.js"></script>
-    <?php include_once("../../../google-analytics.php") ?>
+    <?php include("../../../google-analytics.php") ?>
 </body>
 </html>
